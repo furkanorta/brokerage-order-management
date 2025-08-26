@@ -37,12 +37,13 @@
 
   ### 2. Bağımlılıkları Yükleyin
   ```bash
-  mvn clean install
+  $env:JAVA_HOME = "C:\Users\furkan\Downloads\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7\jdk-21.0.6+7"
+  .\mvnw.cmd clean install
   ```
 
   ### 3. Uygulamayı Çalıştırın
   ```bash
-  mvn spring-boot:run
+  .\mvnw.cmd spring-boot:run
   ```
 
   Uygulama varsayılan olarak `http://localhost:8080` adresinde çalışacaktır.
@@ -223,7 +224,7 @@
   Unit testleri çalıştırmak için:
 
   ```bash
-  mvn test
+  .\mvnw.cmd test
   ```
 
 
