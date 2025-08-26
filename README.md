@@ -31,7 +31,7 @@
 
   ### 1. Projeyi İndirin
   ```bash
-  git clone [brokerage-order-management](https://github.com/furkanorta/brokerage-order-management.git)
+  git clone https://github.com/furkanorta/brokerage-order-management.git
   cd brokerage-order-management
   ```
 
