@@ -62,8 +62,6 @@ class OrderServiceTest {
     void alimEmriOlustur_Basarili () {
         when(assetRepository.findByCustomerIdAndAssetName("CUST001", "TRY"))
             .thenReturn(Optional.of(paraVarlik));
-        when(assetRepository.findByCustomerIdAndAssetName("CUST001", "AAPL"))
-            .thenReturn(Optional.of(hisseVarlik));
         when(orderRepository.save(any(Order.class)))
             .thenAnswer(invocation -> invocation.getArgument(0));
         when(assetRepository.save(any(Asset.class)))
