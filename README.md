@@ -31,8 +31,8 @@
 
   ### 1. Projeyi İndirin
   ```bash
-  git clone <repository-url>
-  cd brokerage
+  git clone [brokerage-order-management](https://github.com/furkanorta/brokerage-order-management.git)
+  cd brokerage-order-management
   ```
 
   ### 2. Bağımlılıkları Yükleyin
